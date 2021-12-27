@@ -14,5 +14,5 @@ int ft_strlen(char *str)
 #include <stdio.h>
 int main(void)
 {
-    printf("%i", ft_strlen("Igor !"));
+    printf("%i", ft_strlen("quarenta e dois"));
 }
