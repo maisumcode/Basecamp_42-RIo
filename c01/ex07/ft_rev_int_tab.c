@@ -14,8 +14,9 @@ void    ft_rev_int_tab(int *tab, int size)
 }
 
 // #include <stdio.h>
-// void print_array(int *arr)
+// void print_array(char *msg, int *arr)
 // {
+//     printf("%s", msg);
 //     for (int i = 0; i < 4; i++)
 //     {
 //         printf("%i, ", arr[i]);
@@ -26,7 +27,7 @@ void    ft_rev_int_tab(int *tab, int size)
 // {
 //     int value[] = { 4, 2, 3, 5 };
 //     int *ptr = value;
-//     print_array(value);
+//     print_array("Antes: ", value);
 //     ft_rev_int_tab(ptr, 4);
-//     print_array(value);
+//     print_array("Depois: ", value);
 // }
