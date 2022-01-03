@@ -1,24 +1,24 @@
-void    ft_sort_int_tab(int *tab,int size)
+void    ft_sort_int_tab(int *tab, int size)
 {
     int hold_values;
+    int bubble_sort;
     int i;
-    int j;
 
-    i = 0;
-    while (i < size)
+    bubble_sort = 0;
+    while (bubble_sort < size)
     {
-        j = 0;
-        while (j < size - 1)
+        i = 0;
+        while (i < size - 1)
         {
-            hold_values = tab[j];
-            if (tab[j] > tab[j + 1])
+            hold_values = tab[i];
+            if (tab[i] > tab[i + 1])
             {
-                tab[j] = tab[j + 1];
-                tab[j + 1] = hold_values;
+                tab[i] = tab[i + 1];
+                tab[i + 1] = hold_values;
             }
-            j++;
+            i++;
         }
-        i++;
+        bubble_sort++;
     }
 }
 
